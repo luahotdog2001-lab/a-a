@@ -1,8 +1,8 @@
 /* English Battle authentication + admin console. Configure the two constants below. */
 (() => {
   'use strict';
-  const SUPABASE_URL = 'YOUR_SUPABASE_PROJECT_URL';
-  const SUPABASE_ANON_KEY = 'YOUR_SUPABASE_ANON_OR_PUBLISHABLE_KEY';
+  const SUPABASE_URL = 'https://xrdwvswwcgqapailbohf.supabase.co';
+  const SUPABASE_ANON_KEY = 'sb_publishable_zab5Z5Db9d0reeBnmbB0CQ_CcyZZwXr';
   const $ = id => document.getElementById(id);
   const gate = $('authGate');
   let client = null, mode = 'login', currentProfile = null, membersCache = [];
